@@ -1,6 +1,6 @@
 FROM redhat/ubi8
 
-RUN yumm install python3 -y && pip3 install flask
+RUN yum install python3 -y && pip3 install flask
 
 COPY app.py .
 
